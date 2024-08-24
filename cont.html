@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://astromedical.ca/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-6a14517f0f2190e4b5a5550807cca99a.css" media="all" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARxWJzFuCftUEoko5i3KAYbdmnhvagusE&callback=initMap" async defer></script>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+                  header {
+    background-color: #f8f8f8;
+    border-bottom: 2px solid #ddd;
+}
+
+.Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 70px;
+}
+
+  .Me p{
+Color: #FF0000;
+font-weight: bold;
+}
+
+
+nav {
+    background-color: #0044cc;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+          
+
+    
+
+
+
+        .contact-section {
+            padding: 50px 20px;
+            background-color: #f4f4f4;
+        }
+
+        .contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .contact-info, .contact-form, .map-container {
+            width: 45%;
+            margin-bottom: 20px;
+        }
+
+        .contact-info h2, .contact-form h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        .contact-info p, .contact-form p {
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #555;
+        }
+
+        .contact-info a, .contact-form a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover, .contact-form a:hover {
+            text-decoration: underline;
+        }
+
+        .map-container {
+            height: 450px;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        /* Form styles */
+        input[type="text"],
+        input[type="email"],
+        input[type="file"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            border: none;
+            color: white;
+            font-size: 18px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+
+<header>
+            <div class="Container">
+            <div class="logo"> 
+           <img src="mylogo.png" alt="astro-medical-logo" > 
+          </div>
+            <div class ="Me">
+          <p>Hossein</P>
+<p> Dehghani Kazemi </p>
+            </div>
+            <div Class="Contact-info">
+              <div Class="Phone"
+              <p>  Phone: <a href = "tel:your-phone-number" >Your Phone Number</a>  </p> 
+              </div>
+              <div class="Fax"                
+              <p> Fax: <a href = "fax:your-fax-number" > Your Fax Number</a> </p>
+             </div>
+             </div>
+            <div class="address" ><p>Address: 77 University Crescent </p>
+                                 <p>Winnipeg Manitoba,Canada</p></div>
+             
+             </div>
+            <nav>
+                <ul>
+                <li><a href="hero.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#">Aesthetic</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="cont.html">Contact Us</a></li>
+                <li><a href="#">New Patient Form</a>
+                     </li>
+                </ul>
+             </nav>
+          </header>
+
+  
+
+<div class="mkdf-content">
+    <div class="mkdf-content-inner">
+        <section class="contact-section">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions or need further information, feel free to reach out to us using the contact information below or by visiting our office.</p>
+                    <p><strong>Address:</strong> Unit 2, University Crescent, Winnipeg, Manitoba</p>
+                    <p><strong>Phone:</strong> <a href="tel:+12045606575">(204) 399-1110</a></p>
+                    <p><strong>Fax:</strong> (204) 333-4338</p>
+                    <p><strong>Email:</strong> <a href="astromedicalclinic@gmail.com">Hussein_Dehghani@yahoo.com</a></p>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form action="https://formspree.io/f/xgvwyarq" method="POST" enctype="multipart/form-data">
+                        <label>
+                            Your Name:
+                            <input type="text" name="name" required>
+                        </label>
+                        <label>
+                            Your Email:
+                            <input type="email" name="email" required>
+                        </label>
+                        <label>
+                            Your Message:
+                            <textarea name="message" required></textarea>
+                        </label>
+                        <label>
+                            Upload a File:
+                            <input type="file" name="upload">
+                        </label>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+
+                <div class="map-container">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<footer class="mkdf-page-footer">
+    <!-- Existing footer content -->
+</footer>
+
+<script>
+    function initMap() {
+        const location = { lat: 49.8469, lng: -97.1451 }; // Example coordinates for University Crescent, Winnipeg
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 15,
+            center: location,
+        });
+        const marker = new google.maps.Marker({
+            position: location,
+            map: map,
+        });
+    }
+
+    document.querySelector('form').addEventListener('submit', function(event) {
+        alert('Your message has been sent! Thank you for contacting us.');
+    });
+</script>
+
+</body>
+</html>
